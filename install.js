@@ -119,6 +119,21 @@ module.exports = {
           done();
         })
         .catch(done)
+      },
+
+      function (done) {
+        we.db.models.widget.bulkCreate([
+          {
+            title: null,
+            type: 'html',
+            regionName: 'highlighted',
+            configuration: {
+              html: '<p>Example blog project</p><p>The admin account is:<br>Email:&nbsp;<b>admin@example.com</b><br>Password: <b>admin</b></p>'
+            }
+          }
+        ]).spread(function () {
+          done();
+        }).catch(done);
       }
     ], done);
   }
