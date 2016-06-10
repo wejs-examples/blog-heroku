@@ -24,8 +24,6 @@
     "we-plugin-disqus": "1.0.0",
     "we-plugin-editor-summernote": "^1.0.1",
     "we-plugin-email": "^1.0.1 ",
-    "we-plugin-file": "^1.2.2",
-    "we-plugin-file-cloudinary": "^1.0.0",
     "we-plugin-form": "^1.0.1",
     "we-plugin-google-analytics": "0.3.3",
     "we-plugin-menu": "^1.2.1",
