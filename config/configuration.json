@@ -1,5 +1,6 @@
 {
   "acl": {
     "disabled": false
-  }
+  },
+  "enableRequestLog": false
 }
