@@ -5,7 +5,15 @@
   "logo": "https://wejs.org/public/plugin/we-core/files/images/logo.png",
   "keywords": ["node", "we.js", "blog"],
   "image": "heroku/nodejs",
+  "env": {
+    "NODE_ENV": {
+      "description": "The node.js enviroment.",
+      "value": "production",
+      "required": true
+    }
+  },
   "addons": [
     "heroku-postgresql:hobby-dev"
   ]
 }
+
