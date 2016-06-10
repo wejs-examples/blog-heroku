@@ -1,6 +1,6 @@
 # Blog example project with Heroku hosting
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/wejs-examples/blog-heroku/tree/master)
 
 Blog project example with heroku configuration, articles, acl, views, theme and without email and file upload
 
