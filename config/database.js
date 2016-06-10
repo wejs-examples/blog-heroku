@@ -8,6 +8,7 @@ module.exports.database = {
     dialect: 'postgres',
     protocol: 'postgres'
   },
+  // localhost or dev env
   test: {
     dialect: 'mysql',
     database: 'test',

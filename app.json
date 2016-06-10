@@ -1,1 +1,11 @@
-app.json
+{
+  "name": "We.js blog example project",
+  "description": "A example of we.js use in heroku",
+  "repository": "https://github.com/wejs-examples/blog-heroku",
+  "logo": "https://wejs.org/public/plugin/we-core/files/images/logo.png",
+  "keywords": ["node", "we.js", "blog"],
+  "image": "heroku/nodejs",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ]
+}
