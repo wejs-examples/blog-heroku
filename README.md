@@ -1,14 +1,14 @@
 # Blog example project with Heroku hosting
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/wejs-examples/blog-heroku/tree/master)
 
-Blog project example with articles and without email and file upload
+Blog project example with heroku configuration, articles, acl, views, theme and without email and file upload
 
 Email dont are configured, then you need to use the admin account bellow to login
 
-**Admin account:**
-Email: admin@example.com
-Password: admin
+**Admin account:**:
+- Email: admin@example.com
+- Password: admin
 
 ## How to install localy
 
