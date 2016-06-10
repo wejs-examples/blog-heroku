@@ -6,8 +6,30 @@
   "keywords": ["node", "we.js", "blog"],
   "image": "heroku/nodejs",
   "env": {
+    "APP_NAME": {
+      "description": "The project app name or blog title.",
+      "value": "We.js blog example",
+      "required": true
+    },
+    "APP_DESCRIPTION": {
+      "description": "One subject or subtitle for this blog",
+      "value": "A We.js blog with heroku deploy.",
+      "required": true
+    },
+    "APP_LOGO": {
+      "description": "URL for project app logo.",
+      "value": "/public/project/logo.jpg",
+      "required": true
+    },
+
+    "APP_HOMEBG": {
+      "description": "URL to backgroud image for blog header, the default is one matrix texts image.",
+      "value": "/public/project/home-bg.jpg",
+      "required": true
+    },
+
     "NODE_ENV": {
-      "description": "The node.js enviroment.",
+      "description": "The node.js enviroment, keep production.",
       "value": "production",
       "required": true
     }
