@@ -10,15 +10,20 @@ module.exports = function loadPlugin(projectPath, Plugin) {
 
   plugin.setRoutes({
     // home page route
+    // 'get /': {
+    //   name: 'main.index',
+    //   controller: 'article',
+    //   model: 'article',
+    //   action: 'find',
+    //   template: 'article/find',
+
+    //   titleHandler  : 'i18n', // i18n title
+    //   titleI18n: 'main.index',
+    // }
     'get /': {
       name: 'main.index',
-      controller: 'article',
-      model: 'article',
-      action: 'find',
-      template: 'article/find',
-
-      titleHandler  : 'i18n', // i18n title
-      titleI18n: 'main.index',
+      controller: 'main',
+      action: 'goToArticles'
     }
   });
   return plugin;
