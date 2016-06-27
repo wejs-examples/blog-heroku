@@ -27,14 +27,14 @@ module.exports = {
         .then(function (user) {
           we.log.info('New User with id: ', user.id);
           // set the password
-          we.db.models.password.create({
+          return we.db.models.password.create({
             userId: user.id,
             password: user1.password,
             confirmPassword: user1.password
           }).then(function () {
             return done();
-          }).catch(done);
-        });
+          })
+        }).catch(done);
       },
       function createDefaultMenus(done) {
         we.utils.async.series([
