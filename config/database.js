@@ -7,7 +7,7 @@ module.exports.database = {
 //    // uri: 'mysql://localhost:3306/test',
 //    dialect: 'postgres',
 //    protocol: 'postgres'
-
+    uri: process.env.DATABASE_URL || null,
     dialect: 'mysql',
     database: 'test',
     username: 'root',
@@ -16,6 +16,7 @@ module.exports.database = {
   },
   // localhost or dev env
   test: {
+    uri: process.env.DATABASE_URL || null,
     dialect: 'mysql',
     database: 'test',
     username: 'root',
